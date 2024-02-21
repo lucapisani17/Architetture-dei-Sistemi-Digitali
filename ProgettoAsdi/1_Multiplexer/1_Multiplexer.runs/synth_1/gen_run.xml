@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a50ticsg324-1L" LaunchTime="1708207704" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/rete_onBoard.dcp">
+  <File Type="PA-TCL" Name="rete_onBoard.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="rete_onBoard_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="rete_onBoard_reports.tcl"/>
+  <File Type="RDS-RDS" Name="rete_onBoard.vds"/>
+  <File Type="RDS-UTIL" Name="rete_onBoard_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="rete_onBoard_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="rete_onBoard.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="rete_onBoard_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="rete_onBoard_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/demux_1_4.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux_16_1.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/3_MUX_indirizzabile_4_1/mux_2_1.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Users/vince/Desktop/Magistrale/Primo Anno/Primo Semestre/Architettura dei Sistemi Digitali/Esercizi_Teoria/3_MUX_indirizzabile_4_1/mux_2_1.vhd"/>
+        <Attr Name="ImportTime" Val="1705501742"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/3_MUX_indirizzabile_4_1/mux_4_1.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../Users/vince/Desktop/Magistrale/Primo Anno/Primo Semestre/Architettura dei Sistemi Digitali/Esercizi_Teoria/3_MUX_indirizzabile_4_1/mux_4_1.vhd"/>
+        <Attr Name="ImportTime" Val="1705501731"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/rete_interconnessione.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/unita_controllo.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/rete_onBoard.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="rete_onBoard"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/digilent-xdc-master/Nexys-A7-50T-Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../digilent-xdc-master/Nexys-A7-50T-Master.xdc"/>
+        <Attr Name="ImportTime" Val="1698305115"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/rete_onBoard.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "rete_interconnessione_tb_behav" "xil_defaultlib.rete_interconnessione_tb" -log "elaborate.log" 

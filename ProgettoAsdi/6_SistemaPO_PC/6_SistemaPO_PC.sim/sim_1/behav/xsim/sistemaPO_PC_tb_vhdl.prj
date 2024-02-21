@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../6_SistemaPO_PC.srcs/sources_1/new/CU.vhd" \
+"../../../../6_SistemaPO_PC.srcs/sources_1/imports/new/counter_mod8.vhd" \
+"../../../../6_SistemaPO_PC.srcs/sources_1/new/macchinaM.vhd" \
+"../../../../6_SistemaPO_PC.srcs/sources_1/imports/new/mem.vhd" \
+"../../../../6_SistemaPO_PC.srcs/sources_1/imports/new/rom.vhd" \
+"../../../../6_SistemaPO_PC.srcs/sources_1/new/sistemaPO_PC.vhd" \
+"../../../../6_SistemaPO_PC.srcs/sim_1/new/sistema_tb.vhd" \
+
+# Do not sort compile order
+nosort

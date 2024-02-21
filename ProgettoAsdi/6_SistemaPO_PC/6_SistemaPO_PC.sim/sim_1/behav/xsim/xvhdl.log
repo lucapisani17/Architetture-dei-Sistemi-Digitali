@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/asdi/Elaborato_Finale/6_SistemaPO_PC/6_SistemaPO_PC.srcs/sources_1/new/macchinaM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'macchinaM'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/asdi/Elaborato_Finale/6_SistemaPO_PC/6_SistemaPO_PC.srcs/sources_1/new/sistemaPO_PC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'sistemaPO_PC'

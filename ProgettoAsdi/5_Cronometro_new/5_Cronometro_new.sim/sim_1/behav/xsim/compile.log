@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/asdi/Elaborato_Finale/5_Cronometro_new/5_Cronometro_new.srcs/sources_1/new/counter.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'counter'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/asdi/Elaborato_Finale/5_Cronometro_new/5_Cronometro_new.srcs/sources_1/new/cronometro.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cronometro'

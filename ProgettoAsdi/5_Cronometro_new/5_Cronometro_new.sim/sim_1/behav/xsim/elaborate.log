@@ -1,0 +1,19 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_cronometro_behav xil_defaultlib.tb_cronometro -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.clock_filter [\clock_filter(clkout_freq=100000...]
+Compiling architecture behavioral of entity xil_defaultlib.counter [\counter(modulo=60,n=6)\]
+Compiling architecture behavioral of entity xil_defaultlib.counter [\counter(modulo=24,n=5)\]
+Compiling architecture structural of entity xil_defaultlib.cronometro [cronometro_default]
+Compiling architecture behavior of entity xil_defaultlib.tb_cronometro
+Built simulation snapshot tb_cronometro_behav
