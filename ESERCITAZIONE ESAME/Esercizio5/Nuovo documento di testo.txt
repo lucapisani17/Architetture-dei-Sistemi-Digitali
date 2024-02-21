@@ -1,0 +1,21 @@
+Gentile studente,
+ecco l’esercizio che ti è stato assegnato per l’esame di ASDi:
+Progettare, implementare in VHDL e simulare la seguente architettura. Un
+sistema è composto da 2 nodi, A e B. A trasmette serialmente a B fino ad
+un massimo di M sequenze di 4 bit su una linea di comunicazione seriale
+(attenzione: non deve essere usata una UART), scambiando con B dei
+segnali di handshaking prima di iniziare l’invio di una nuova sequenza.
+Il sistema B contiene un riconoscitore di sequenze in grado di
+verificare se il valore ricevuto rappresenta un numero maggiore di X,
+con X prefissato, assumendo di ricevere il numero partendo dal bit più
+significativo. B contiene inoltre un contatore che si incrementa ogni
+volta che si ottiene uscita alta. Solo se la condizione risulta
+verificata (uscita alta), B si porrà in attesa di una nuova sequenza.
+Altrimenti, B non accetterà nuove sequenze e memorizzerà in un registro
+interno il numero di sequenze verificate.
+Nota: seppure sia possibile implementare la funzione dei singoli moduli
+come il riconoscitore con paradigma, ad esempio, data-flow o
+comportamentale, è richiesto che l’implementazione VHDL segua una
+progettazione strutturale per l’interconnessione dei moduli.
+
+-8 +7

@@ -1,0 +1,16 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Esercizio5.srcs/sources_1/new/ROM.vhd" \
+"../../../../Esercizio5.srcs/sources_1/new/cuA.vhd" \
+"../../../../Esercizio5.srcs/sources_1/new/counter.vhd" \
+"../../../../Esercizio5.srcs/sources_1/new/Shiftreg.vhd" \
+"../../../../Esercizio5.srcs/sources_1/new/Sistema A.vhd" \
+"../../../../Esercizio5.srcs/sources_1/new/cuB.vhd" \
+"../../../../Esercizio5.srcs/sources_1/new/riconoscitore4bit.vhd" \
+"../../../../Esercizio5.srcs/sources_1/new/deshifter.vhd" \
+"../../../../Esercizio5.srcs/sources_1/new/SistemaB.vhd" \
+"../../../../Esercizio5.srcs/sources_1/new/SISTEMA_HANDSHAKE.vhd" \
+"../../../../Esercizio5.srcs/sim_1/new/TB.vhd" \
+
+# Do not sort compile order
+nosort

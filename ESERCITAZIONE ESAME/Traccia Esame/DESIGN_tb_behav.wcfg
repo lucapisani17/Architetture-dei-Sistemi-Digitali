@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="DESIGN_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="DESIGN_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="137.501 ns"></ZoomEndTime>
+      <Cursor1Time time="1,000.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="152"></NameColumnWidth>
+      <ValueColumnWidth column_width="74"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/DESIGN_tb/DUT/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DESIGN_tb/DUT/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DESIGN_tb/DUT/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DESIGN_tb/DUT/NODOA/CUA/op1ouput" type="array">
+      <obj_property name="ElementShortName">op1ouput[7:0]</obj_property>
+      <obj_property name="ObjectShortName">op1ouput[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DESIGN_tb/DUT/NODOA/CUA/copoutput" type="array">
+      <obj_property name="ElementShortName">copoutput[1:0]</obj_property>
+      <obj_property name="ObjectShortName">copoutput[1:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DESIGN_tb/DUT/NODOA/CUA/curr_state" type="other">
+      <obj_property name="ElementShortName">curr_state</obj_property>
+      <obj_property name="ObjectShortName">curr_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DESIGN_tb/DUT/NODOB/X_to_C" type="array">
+      <obj_property name="ElementShortName">X_to_C[7:0]</obj_property>
+      <obj_property name="ObjectShortName">X_to_C[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DESIGN_tb/DUT/NODOB/op2_to_C" type="array">
+      <obj_property name="ElementShortName">op2_to_C[7:0]</obj_property>
+      <obj_property name="ObjectShortName">op2_to_C[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DESIGN_tb/DUT/NODOC/CUC/data_to_save" type="array">
+      <obj_property name="ElementShortName">data_to_save[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_to_save[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DESIGN_tb/DUT/NODOC/ROM/data_in" type="array">
+      <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DESIGN_tb/DUT/NODOC/ROM/memoria" type="array">
+      <obj_property name="ElementShortName">memoria[7:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">memoria[7:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DESIGN_tb/DUT/NODOC/ROM/write_rom" type="logic">
+      <obj_property name="ElementShortName">write_rom</obj_property>
+      <obj_property name="ObjectShortName">write_rom</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DESIGN_tb/DUT/NODOC/CUC/curr_state" type="other">
+      <obj_property name="ElementShortName">curr_state</obj_property>
+      <obj_property name="ObjectShortName">curr_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DESIGN_tb/DUT/NODOC/CUC/doneA" type="logic">
+      <obj_property name="ElementShortName">doneA</obj_property>
+      <obj_property name="ObjectShortName">doneA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DESIGN_tb/DUT/NODOC/CUC/doneB" type="logic">
+      <obj_property name="ElementShortName">doneB</obj_property>
+      <obj_property name="ObjectShortName">doneB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DESIGN_tb/DUT/NODOA/CUA/req" type="logic">
+      <obj_property name="ElementShortName">req</obj_property>
+      <obj_property name="ObjectShortName">req</obj_property>
+   </wvobject>
+   <wvobject fp_name="/DESIGN_tb/DUT/NODOC/ROM/ADDRESS" type="array">
+      <obj_property name="ElementShortName">ADDRESS[2:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDRESS[2:0]</obj_property>
+   </wvobject>
+</wave_config>

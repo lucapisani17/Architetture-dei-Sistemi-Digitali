@@ -1,0 +1,5 @@
+Si consideri una unità A contenente un registro a scorrimento di 4 celle. L’unità A è collegata ad una unità B a cui invia mediante handshaking tutti i dati contenuti nel registro (l’handshaking deve essere effettuato per ogni bit). L’unità B somma i bit ricevuti mediante un sommatore di bit. 
+
+HO UN PO TROLLATO MA SI POTEVA FARE RAGIONANDO MEGLIO
+
+soluzione, mandi i bit uno alla volta e li salvi in un registro provvisorrio stesso nella cuB e ci fai sopra le somme parziali

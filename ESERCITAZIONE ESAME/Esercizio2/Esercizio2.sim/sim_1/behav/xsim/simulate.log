@@ -1,0 +1,6 @@
+Time resolution is 1 ps
+ERROR: Index 8 out of bound 0 to 7
+Time: 275 ns  Iteration: 3  Process: /SISTEMA_HANDSHAKE_tb/UUT/SISA/ROM/line__31
+  File: C:/Users/lucap/Desktop/ESERCITAZIONE ESAME/Esercizio2/Esercizio2.srcs/sources_1/new/rom.vhd
+
+HDL Line: C:/Users/lucap/Desktop/ESERCITAZIONE ESAME/Esercizio2/Esercizio2.srcs/sources_1/new/rom.vhd:31

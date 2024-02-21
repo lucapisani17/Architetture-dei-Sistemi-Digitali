@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat Feb 17 16:37:11 2024
+# Process ID: 15272
+# Current directory: C:/Users/lucap/Desktop/ESERCITAZIONE ESAME/Esercizio4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20892 C:\Users\lucap\Desktop\ESERCITAZIONE ESAME\Esercizio4\Esercizio4.xpr
+# Log file: C:/Users/lucap/Desktop/ESERCITAZIONE ESAME/Esercizio4/vivado.log
+# Journal file: C:/Users/lucap/Desktop/ESERCITAZIONE ESAME/Esercizio4\vivado.jou
+# Running On: DESKTOP-5S9H911, OS: Windows, CPU Frequency: 3192 MHz, CPU Physical cores: 4, Host memory: 17120 MB
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/lucap/Desktop/ESERCITAZIONE ESAME/Esercizio4/Esercizio4.xpr}
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Users/lucap/Desktop/ESERCITAZIONE ESAME/RCA_generate/RCA_generate.srcs/sources_1/imports/new/FA.vhd} {C:/Users/lucap/Desktop/ESERCITAZIONE ESAME/RCA_generate/RCA_generate.srcs/sources_1/imports/new/RCA_Nbit.vhd}}
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  {{C:/Users/lucap/Desktop/ESERCITAZIONE ESAME/Esercizio4/Esercizio4.srcs/sources_1/new/adder.vhd}}]
+close [ open {C:/Users/lucap/Desktop/ESERCITAZIONE ESAME/Esercizio4/Esercizio4.srcs/sources_1/new/registro.vhd} w ]
+add_files {{C:/Users/lucap/Desktop/ESERCITAZIONE ESAME/Esercizio4/Esercizio4.srcs/sources_1/new/registro.vhd}}
+update_compile_order -fileset sources_1

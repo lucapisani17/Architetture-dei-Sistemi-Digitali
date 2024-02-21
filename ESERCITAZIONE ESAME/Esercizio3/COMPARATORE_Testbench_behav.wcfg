@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="COMPARATORE_Testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="COMPARATORE_Testbench" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999,993 ps"></ZoomStartTime>
+      <ZoomEndTime time="1,000,002 ps"></ZoomEndTime>
+      <Cursor1Time time="1,000,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="152"></NameColumnWidth>
+      <ValueColumnWidth column_width="63"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wvobject fp_name="/COMPARATORE_Testbench/clk_tb" type="logic">
+      <obj_property name="ElementShortName">clk_tb</obj_property>
+      <obj_property name="ObjectShortName">clk_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/COMPARATORE_Testbench/rst_tb" type="logic">
+      <obj_property name="ElementShortName">rst_tb</obj_property>
+      <obj_property name="ObjectShortName">rst_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/COMPARATORE_Testbench/start_tb" type="logic">
+      <obj_property name="ElementShortName">start_tb</obj_property>
+      <obj_property name="ObjectShortName">start_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/COMPARATORE_Testbench/stringaA_tb" type="array">
+      <obj_property name="ElementShortName">stringaA_tb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">stringaA_tb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/COMPARATORE_Testbench/stringaB_tb" type="array">
+      <obj_property name="ElementShortName">stringaB_tb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">stringaB_tb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/COMPARATORE_Testbench/count_tb" type="other">
+      <obj_property name="ElementShortName">count_tb</obj_property>
+      <obj_property name="ObjectShortName">count_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/COMPARATORE_Testbench/clk_period" type="other">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/COMPARATORE_Testbench/uut/match_count" type="other">
+      <obj_property name="ElementShortName">match_count</obj_property>
+      <obj_property name="ObjectShortName">match_count</obj_property>
+   </wvobject>
+   <wvobject fp_name="/COMPARATORE_Testbench/uut/curr_state" type="other">
+      <obj_property name="ElementShortName">curr_state</obj_property>
+      <obj_property name="ObjectShortName">curr_state</obj_property>
+   </wvobject>
+</wave_config>

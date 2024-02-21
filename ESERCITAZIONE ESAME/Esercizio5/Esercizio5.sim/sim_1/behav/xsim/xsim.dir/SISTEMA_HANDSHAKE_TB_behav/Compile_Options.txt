@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "SISTEMA_HANDSHAKE_TB_behav" "xil_defaultlib.SISTEMA_HANDSHAKE_TB" -log "elaborate.log" 

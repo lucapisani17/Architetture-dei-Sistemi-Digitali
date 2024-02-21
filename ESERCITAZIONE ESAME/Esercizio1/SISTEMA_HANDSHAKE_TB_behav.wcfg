@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="SISTEMA_HANDSHAKE_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="SISTEMA_HANDSHAKE_TB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0 ps"></ZoomStartTime>
+      <ZoomEndTime time="13 ps"></ZoomEndTime>
+      <Cursor1Time time="1,000,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="152"></NameColumnWidth>
+      <ValueColumnWidth column_width="63"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/clk_tb" type="logic">
+      <obj_property name="ElementShortName">clk_tb</obj_property>
+      <obj_property name="ObjectShortName">clk_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/rst_tb" type="logic">
+      <obj_property name="ElementShortName">rst_tb</obj_property>
+      <obj_property name="ObjectShortName">rst_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/start_tb" type="logic">
+      <obj_property name="ElementShortName">start_tb</obj_property>
+      <obj_property name="ObjectShortName">start_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/ack_tb" type="logic">
+      <obj_property name="ElementShortName">ack_tb</obj_property>
+      <obj_property name="ObjectShortName">ack_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/strobe_tb" type="logic">
+      <obj_property name="ElementShortName">strobe_tb</obj_property>
+      <obj_property name="ObjectShortName">strobe_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dataC_tb" type="array">
+      <obj_property name="ElementShortName">dataC_tb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dataC_tb[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dataX_tb" type="array">
+      <obj_property name="ElementShortName">dataX_tb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">dataX_tb[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/SISTEMA_A/ROM/ROM" type="array">
+      <obj_property name="ElementShortName">ROM[0:7][11:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM[0:7][11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/SISTEMA_B/MEM1/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/SISTEMA_B/MEM1/input" type="array">
+      <obj_property name="ElementShortName">input[7:0]</obj_property>
+      <obj_property name="ObjectShortName">input[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/SISTEMA_B/MEM1/write_addr" type="array">
+      <obj_property name="ElementShortName">write_addr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">write_addr[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/SISTEMA_B/MEM1/write_en" type="logic">
+      <obj_property name="ElementShortName">write_en</obj_property>
+      <obj_property name="ObjectShortName">write_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/SISTEMA_B/MEM1/MEM" type="array">
+      <obj_property name="ElementShortName">MEM[0:7][7:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM[0:7][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/SISTEMA_B/MEM2/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/SISTEMA_B/MEM2/input" type="array">
+      <obj_property name="ElementShortName">input[7:0]</obj_property>
+      <obj_property name="ObjectShortName">input[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/SISTEMA_B/MEM2/write_addr" type="array">
+      <obj_property name="ElementShortName">write_addr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">write_addr[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/SISTEMA_B/MEM2/write_en" type="logic">
+      <obj_property name="ElementShortName">write_en</obj_property>
+      <obj_property name="ObjectShortName">write_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/SISTEMA_B/MEM2/MEM" type="array">
+      <obj_property name="ElementShortName">MEM[0:7][7:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM[0:7][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/SISTEMA_A/ROM/addr" type="array">
+      <obj_property name="ElementShortName">addr[2:0]</obj_property>
+      <obj_property name="ObjectShortName">addr[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/SISTEMA_A/ROM/data_outC" type="array">
+      <obj_property name="ElementShortName">data_outC[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_outC[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/SISTEMA_A/ROM/data_outX" type="array">
+      <obj_property name="ElementShortName">data_outX[3:0]</obj_property>
+      <obj_property name="ObjectShortName">data_outX[3:0]</obj_property>
+   </wvobject>
+</wave_config>

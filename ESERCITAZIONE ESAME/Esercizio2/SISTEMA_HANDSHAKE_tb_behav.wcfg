@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="SISTEMA_HANDSHAKE_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="SISTEMA_HANDSHAKE_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="275.001 ns"></ZoomEndTime>
+      <Cursor1Time time="275.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="152"></NameColumnWidth>
+      <ValueColumnWidth column_width="63"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="6" />
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_tb/start_tb" type="logic">
+      <obj_property name="ElementShortName">start_tb</obj_property>
+      <obj_property name="ObjectShortName">start_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_tb/clk_tb" type="logic">
+      <obj_property name="ElementShortName">clk_tb</obj_property>
+      <obj_property name="ObjectShortName">clk_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_tb/rst_tb" type="logic">
+      <obj_property name="ElementShortName">rst_tb</obj_property>
+      <obj_property name="ObjectShortName">rst_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_tb/UUT/SISA/ROM/ROM" type="array">
+      <obj_property name="ElementShortName">ROM[0:7][3:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM[0:7][3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_tb/UUT/SISA/ROM/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[3:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_tb/UUT/SISB/COMP/input_string" type="array">
+      <obj_property name="ElementShortName">input_string[3:0]</obj_property>
+      <obj_property name="ObjectShortName">input_string[3:0]</obj_property>
+   </wvobject>
+</wave_config>

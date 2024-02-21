@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="SISTEMA_HANDSHAKE_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="SISTEMA_HANDSHAKE_TB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="55.770 ns"></ZoomStartTime>
+      <ZoomEndTime time="222.171 ns"></ZoomEndTime>
+      <Cursor1Time time="113.970 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="141"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="17" />
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/acktemp" type="logic">
+      <obj_property name="ElementShortName">acktemp</obj_property>
+      <obj_property name="ObjectShortName">acktemp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/strobetemp" type="logic">
+      <obj_property name="ElementShortName">strobetemp</obj_property>
+      <obj_property name="ObjectShortName">strobetemp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/datalink" type="logic">
+      <obj_property name="ElementShortName">datalink</obj_property>
+      <obj_property name="ObjectShortName">datalink</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/SistemaA/SHIFTEREG/SO" type="logic">
+      <obj_property name="ElementShortName">SO</obj_property>
+      <obj_property name="ObjectShortName">SO</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/SistemaB/ACCUMULTORE/input_bit" type="logic">
+      <obj_property name="ElementShortName">input_bit</obj_property>
+      <obj_property name="ObjectShortName">input_bit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/SistemaB/ACCUMULTORE/output_4bit" type="array">
+      <obj_property name="ElementShortName">output_4bit[3:0]</obj_property>
+      <obj_property name="ObjectShortName">output_4bit[3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/SistemaB/CUB/trigger" type="logic">
+      <obj_property name="ElementShortName">trigger</obj_property>
+      <obj_property name="ObjectShortName">trigger</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/SistemaA/CUA/stato_corrente" type="other">
+      <obj_property name="ElementShortName">stato_corrente</obj_property>
+      <obj_property name="ObjectShortName">stato_corrente</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/SistemaB/CUB/curr_state" type="other">
+      <obj_property name="ElementShortName">curr_state</obj_property>
+      <obj_property name="ObjectShortName">curr_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/SistemaA/CUA/ack" type="logic">
+      <obj_property name="ElementShortName">ack</obj_property>
+      <obj_property name="ObjectShortName">ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/SistemaB/CUB/ack" type="logic">
+      <obj_property name="ElementShortName">ack</obj_property>
+      <obj_property name="ObjectShortName">ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/SistemaB/ACCUMULTORE/string_index" type="other">
+      <obj_property name="ElementShortName">string_index</obj_property>
+      <obj_property name="ObjectShortName">string_index</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/SistemaB/ACCUMULTORE/bits_received" type="array">
+      <obj_property name="ElementShortName">bits_received[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bits_received[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/SISTEMA_HANDSHAKE_TB/dut/SistemaB/CUB/accumula" type="logic">
+      <obj_property name="ElementShortName">accumula</obj_property>
+      <obj_property name="ObjectShortName">accumula</obj_property>
+   </wvobject>
+</wave_config>
